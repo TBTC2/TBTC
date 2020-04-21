@@ -1,2 +1,1 @@
-# TBTC
-API
+Trackonbtc Public Rest API
