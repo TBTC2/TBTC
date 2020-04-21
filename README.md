@@ -24,7 +24,7 @@ The Trackonbtc API Lorem Ipsum is simply dummy text of the printing and typesett
     ```
      
     
-2. #### MARKET TICKER
+2. #### Ticker Price
    GET `/api/v2/tickerprice?pair=BTC/INR` [Live link](https://api.trackonbtc.com/api/tickerprice?pair=BTC/INR)
     > "Ticker Price" will give markets price for particular pair.
     
