@@ -1,5 +1,5 @@
 # TrakonBTC Public Rest API
-The Trackonbtc API Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+The Trackonbtc API can provide the Ticker price API . You can use it to build tickers, price comparison apps, or anything that helps the crypto community. Use it responsibly
 
 ## General Information
 1. Base API Endpoint: https://trackonbtc.com
