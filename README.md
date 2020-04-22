@@ -42,4 +42,4 @@ The Trackonbtc API Lorem Ipsum is simply dummy text of the printing and typesett
     ```
          
     
-If you have any questions regarding APIs, please reach out to us at http:/support@trackonbtc.com
+If you have any questions regarding APIs, please reach out to us at mail: support@trackonbtc.com
