@@ -14,7 +14,7 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
     
     ### Response:
     ```
-    {"status":200,"message":"","data": 
+    {"status":200,"message":"ok","data": 
     [
      {"marketPrice":12302.58,"pair":"BTC/AUD","buyrate":12425.6058,"sellrate":12425.6058},
      .....
@@ -31,7 +31,7 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
     Returns JSON response which has active market data with all ticker related values.
     ### Response:
     ```
-     {"status":200,"message":"","data":      
+     {"status":200,"message":"ok","data":      
      [{
         "marketPrice":599582,
         "pair":"BTC/INR",
