@@ -31,8 +31,8 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
      
     
 2. #### Ticker Price(For Particular Pair)
-   GET `/api/v2/tickerprice?pair=BTC/INR` [Live link](https://api.trackonbtc.com/api/tickerprice?pair=BTC/INR)
-    > "Ticker Price" will give markets price for particular pair.
+   GET `/api/tickerprice?pair=BTC/INR` [Live link](https://api.trackonbtc.com/api/tickerprice?pair=BTC/INR)
+    > "Ticker Price" will give markets price for particular pair. User can get result for any available pairs .
     
     Returns JSON response which has active market data with all ticker related values.
     ### Response:
@@ -46,6 +46,12 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
       }]
      }
     ```
+    Response has multiple key which denotes market data, this is in JSON. Find all the fields below:
+    
+    1. `marketPrice`: Market price for this pair
+    1. `pair`: Pair symbol
+    1. `buyrate`: Buy rate for this pair
+    1. `sellrate`: Sell rate for this pair
          
     
 If you have any questions regarding APIs, please reach out to us at mail: support@trackonbtc.com
