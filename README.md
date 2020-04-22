@@ -7,7 +7,7 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
 
 ### Public API Endpoints
 
-1. #### Ticker Price
+1. #### Ticker Price (For All Pairs)
    GET `api/tickerprice`  [Live link](https://api.trackonbtc.com/api/tickerprice)
 
     > "Ticker Price" will give markets price for all pairs .
@@ -24,7 +24,7 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
     ```
      
     
-2. #### Ticker Price
+2. #### Ticker Price(For Particular Pair)
    GET `/api/v2/tickerprice?pair=BTC/INR` [Live link](https://api.trackonbtc.com/api/tickerprice?pair=BTC/INR)
     > "Ticker Price" will give markets price for particular pair.
     
