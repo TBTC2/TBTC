@@ -22,6 +22,12 @@ The Trackonbtc API can provide the Ticker price API . You can use it to build ti
     ]
     }
     ```
+     Response has multiple key which denotes market data, this is in JSON. Find all the fields below:
+    
+    1. `marketPrice`: Market price for this pair
+    1. `pair`: Pair symbol
+    1. `buyrate`: Buy rate for this pair
+    1. `sellrate`: Sell rate for this pair
      
     
 2. #### Ticker Price(For Particular Pair)
